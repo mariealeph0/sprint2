@@ -1,0 +1,39 @@
+        * {
+            margin: 2vh;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            background: #000000;
+            font-family: "Open Sans", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        
+        .boxPrincipal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .botonRegistro:hover {
+            font-size: 15px;
+        }
+        
+        .botonVolver:hover {
+            font-size: 20px;
+        }
+        
+        #subtitulo {
+            color: red;
+        }
